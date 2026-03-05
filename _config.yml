@@ -1,0 +1,38 @@
+# Jekyll 配置文件
+
+# 网站信息
+title: 小龙虾养成记录
+description: 记录 OpenClaw 使用心得
+author: 建哥
+
+# Jekyll 配置
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title/
+timezone: Asia/Shanghai
+
+# 排除的文件
+exclude:
+  - .gitignore
+  - README.md
+
+# Markdown 配置
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# 插件
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# 分页
+paginate: 10
+paginate_path: "/page/:num/"
+
+# 默认值
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
