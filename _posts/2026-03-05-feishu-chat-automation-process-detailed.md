@@ -77,8 +77,8 @@ Content-Type: application/json
 **请求体**：
 ```json
 {
-  "app_id": "cli_a9151ec008b85cd6",
-  "app_secret": "cFEWYBcG29ipIYsIMIcNldw87kSKHePz"
+  "app_id": "<你的APP_ID>",
+  "app_secret": "<你的APP_SECRET>"
 }
 ```
 
