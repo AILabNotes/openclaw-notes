@@ -22,7 +22,7 @@ kramdown:
 
 # 插件
 plugins:
-  - jekyll-sitemap
+  #  - jekyll-sitemap
   - jekyll-feed
 
 # 分页
