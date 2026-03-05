@@ -17,16 +17,16 @@ title: 小龙虾养成记录
   {% for post in site.posts %}
     <li>
       <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
 
 ## 分类
 
-- [Agent](/categories/agent/)
-- [Skills](/categories/skill/)
-- [Swarm](/categories/swarm/)
-- [Automation](/categories/automation/)
-- [Troubleshooting](/categories/troubleshooting/)
-- [Tips](/categories/tips/)
+- [Agent]({{ site.baseurl }}/categories/agent/)
+- [Skills]({{ site.baseurl }}/categories/skill/)
+- [Swarm]({{ site.baseurl }}/categories/swarm/)
+- [Automation]({{ site.baseurl }}/categories/automation/)
+- [Troubleshooting]({{ site.baseurl }}/categories/troubleshooting/)
+- [Tips]({{ site.baseurl }}/categories/tips/)

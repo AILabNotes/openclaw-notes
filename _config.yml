@@ -5,6 +5,10 @@ title: 小龙虾养成记录
 description: 记录 OpenClaw 使用心得
 author: 建哥
 
+# GitHub Pages 配置
+baseurl: "/openclaw-notes"
+url: "https://ailabnotes.github.io"
+
 # Jekyll 配置
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
