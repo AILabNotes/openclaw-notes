@@ -7,7 +7,7 @@ author: 建哥
 
 # Jekyll 配置
 markdown: kramdown
-permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
 timezone: Asia/Shanghai
 
 # 排除的文件
