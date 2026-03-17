@@ -1,0 +1,14 @@
+{
+  "project_name": "openclaw-notes",
+  "status": "running",
+  "current_stage": "architect",
+  "created_at": "2026-03-05T11:00:00Z",
+  "chat_id": "oc_bdfc684bcc22edc585e55ff7dcbc42ce",
+  "project_group_id": "oc_be7c4d135d1ff2fb5ccd92ad287175c0",
+  "description": "基于 Jekyll 的技术博客，用于记录 OpenClaw 的使用心得",
+  "type": "blog",
+  "tech_stack": {
+    "framework": "Jekyll",
+    "language": "Ruby"
+  }
+}
